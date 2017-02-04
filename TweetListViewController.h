@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Tweet.h"
 
 @interface TweetListViewController : UIViewController
+
+@property (strong, nonatomic) NSArray<Tweet *> *tweets;
 
 @end
